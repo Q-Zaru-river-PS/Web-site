@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-09-25 水 15:35 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>旧笊川排水機場設備工事</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+
+<script src="https://orgmode.org/org-info.js">
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+// @license-end
+</script>
+
+<script>
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+org_html_manager.set("TOC_DEPTH", "3");
+org_html_manager.set("LINK_HOME", "");
+org_html_manager.set("LINK_UP", "");
+org_html_manager.set("LOCAL_TOC", "1");
+org_html_manager.set("VIEW_BUTTONS", "0");
+org_html_manager.set("MOUSE_HINT", "underline");
+org_html_manager.set("FIXED_TOC", "0");
+org_html_manager.set("TOC", "0");
+org_html_manager.set("VIEW", "info");
+org_html_manager.setup();  // activate after the parameters are set
+// @license-end
+</script>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">旧笊川排水機場設備工事
+<br />
+<span class="subtitle">Kyu Zaru River drainage pump station equipment construction Web site</span>
+</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orga479acf">1. 【工事概要】</a></li>
+<li><a href="#org91c667f">2. 【工事の予定】</a>
+<ul>
+<li><a href="#org3d62941">2.1. 《今月・今週の予定》</a></li>
+<li><a href="#org82a2fd0">2.2. 《工事全体の予定》</a></li>
+</ul>
+</li>
+<li><a href="#orgf337e0c">3. 【トピックス】</a></li>
+<li><a href="#orgc1aff1c">4. 【その他】</a>
+<ul>
+<li><a href="#org482a3d5">4.1. 《旧笊川の水害について》</a></li>
+<li><a href="#orgf105bb9">4.2. 《ポンプについて》</a></li>
+<li><a href="#orgae8092c">4.3. 《除塵機について》</a></li>
+<li><a href="#orgbb485d3">4.4. 《発電機について》</a></li>
+</ul>
+</li>
+<li><a href="#org63a0243">5. 【所長からのひと言】</a></li>
+</ul>
+</div>
+</div>
+<p>
+「令和５年度県債社河川Ａ９７－００２号　旧笊川排水機場設備工事」を請負っている（株）谷工機社です．<br />
+旧笊川排水機場の機械・電気設備についての工事を（令和6年3月14日 ～ 令和8年3月19日）行います．工事期間に地域住民の方々への工事の内容とその進捗状況をお知らせする事を目的とします．<br />
+</p>
+
+<div id="outline-container-orga479acf" class="outline-2">
+<h2 id="orga479acf"><span class="section-number-2">1.</span> 【工事概要】</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+仙台市太白区を流れる旧笊川は，過去に度々大きな水害を引き起こしてきました．水害による被害を軽減するために今回排水機場を建設し，その設備工事を行います．<br />
+排水機場の役割としては，旧笊川の水位がある水位超えてしまった際に，ポンプを使って旧笊川の水を広瀬川に吐き出します．<br />
+川の水を吐き出すために大きなポンプが必要となります．<br />
+</p>
+
+<p>
+今回はコラム式ポンプという 1秒間に 1.8  m<sup>3</sup> 吐き出すことの出来るポンプを 5台取り付けます．<br />
+</p>
+
+<p>
+このポンプ5台が動くと，一般的な小学校のプールの水を35秒ほどで吐き出す事が出来ます．<br />
+（長さ 25 m，幅 12.5 m，深さ 1 m 程度）<br />
+</p>
+
+<p>
+コラムとは筒のことで直径 90 cm の筒の中にポンプとそれを動かすモーターを一緒に入れた水中ポンプです．<br />
+川からの水にはゴミなどもあります．特に大雨の時は折れてしまった木の枝などの大きなゴミも流れてきます．それらのゴミを取り除くために除塵機というゴミを取り除く装置も同じように 5台取り付けます．<br />
+</p>
+
+<p>
+大雨や洪水になりそうな時（非常時）にしか活躍しない設備ですので常に電気を確保しておくと維持管理の費用が大変になります．そこで，発電機を取り付けてその電気でポンプや除塵機を動かします．こうすることで運転の費用を抑える工夫をしています．発電機の大きさは，750 kVA 3台取り付けますが，その内の1台は予備機で，運転している発電機が故障があった際でもすぐ切り替えられるように準備しているものです．750 kVA という大きさは，一般家庭 140 世帯余りです．2台動きますので 280 世帯ほどです．<br />
+\(\Big( \frac{750 \mathrm{kVA} \times 1000}{\sqrt{3} \times 30 \mathrm{A}
+\times 100 \mathrm{V}} \Big)\)<br />
+</p>
+
+
+<div id="org2abeb56" class="figure">
+<p><img src="./images/flow.svg" alt="flow.svg" class="org-svg" width="75%" /><br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org91c667f" class="outline-2">
+<h2 id="org91c667f"><span class="section-number-2">2.</span> 【工事の予定】</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org3d62941" class="outline-3">
+<h3 id="org3d62941"><span class="section-number-3">2.1.</span> 《今月・今週の予定》</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+〈先週の実績〉<br />
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">月日</th>
+<th scope="col" class="org-left">作業予定</th>
+<th scope="col" class="org-left">備 考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">09-16（月）</td>
+<td class="org-left">休み</td>
+<td class="org-left">敬老の日</td>
+</tr>
+
+<tr>
+<td class="org-left">09-17（火）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">09-18（水）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">09-19（木）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">09-20（金）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">09-21（土）</td>
+<td class="org-left">休み</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">09-22（日）</td>
+<td class="org-left">休み</td>
+<td class="org-left">秋分の日</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+〈今週の予定〉<br />
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">月日</th>
+<th scope="col" class="org-left">作業予定</th>
+<th scope="col" class="org-left">備 考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">09-23（月）</td>
+<td class="org-left">休み</td>
+<td class="org-left">振替休日（秋分の日）</td>
+</tr>
+
+<tr>
+<td class="org-left">09-24（火）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">09-25（水）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">09-26（木）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">09-27（金）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">09-28（土）</td>
+<td class="org-left">休み</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">09-29（日）</td>
+<td class="org-left">休み</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+〈次週の予定〉<br />
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">月日</th>
+<th scope="col" class="org-left">作業予定</th>
+<th scope="col" class="org-left">備 考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">09-30（月）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">10-01（火）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">10-02（水）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">10-03（木）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">10-04（金）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">10-05（土）</td>
+<td class="org-left">休み</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">10-06（日）</td>
+<td class="org-left">休み</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+〈次々週の予定〉<br />
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">月日</th>
+<th scope="col" class="org-left">作業予定</th>
+<th scope="col" class="org-left">備 考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">10-07（月）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">10-08（火）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">10-09（水）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">10-10（木）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">10-11（金）</td>
+<td class="org-left">準備・設計</td>
+<td class="org-left">現地作業はありません</td>
+</tr>
+
+<tr>
+<td class="org-left">10-12（土）</td>
+<td class="org-left">休み</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">10-13（日）</td>
+<td class="org-left">休み</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org82a2fd0" class="outline-3">
+<h3 id="org82a2fd0"><span class="section-number-3">2.2.</span> 《工事全体の予定》</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+<a href="./images/schedule.pdf">工程表</a><br />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf337e0c" class="outline-2">
+<h2 id="orgf337e0c"><span class="section-number-2">3.</span> 【トピックス】</h2>
+<div class="outline-text-2" id="text-3">
+<ul class="org-ul">
+<li>工場検査の状況写真<br />
+（後日掲載予定です）<br /></li>
+<li>工事状況の写真<br />
+（後日掲載予定です）<br /></li>
+<li>据付状況写真<br />
+（後日掲載予定です）<br /></li>
+<li>試験状況の写真<br />
+（後日掲載予定です）<br /></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgc1aff1c" class="outline-2">
+<h2 id="orgc1aff1c"><span class="section-number-2">4.</span> 【その他】</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org482a3d5" class="outline-3">
+<h3 id="org482a3d5"><span class="section-number-3">4.1.</span> 《旧笊川の水害について》</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+旧笊川は仙台市の中心部を流れる河川で，過去に度々大きな水害を引き起こしてきました．<br />
+</p>
+
+<p>
+主な水害の歴史は以下の通りです:<br />
+</p>
+
+<ul class="org-ul">
+<li>1910年(明治43年)7月 - 大雨により旧笊川が氾濫し，仙台市内で大規模な浸水被害が発生しました．死者数は100人以上に上りました．<br /></li>
+<li>1947年(昭和22年)9月 - 台風による大雨で旧笊川が決壊し，仙台市内が大水害に見舞われました．死者数は100人近くに達しました．<br /></li>
+<li>1986年(昭和61年)8月 - 集中豪雨により旧笊川が氾濫し，仙台市内で広範囲に浸水被害が発生しました．<br /></li>
+</ul>
+
+<p>
+このように，旧笊川は仙台市の歴史の中で何度も大きな水害を引き起こしてきました．近年は河川改修工事などが進められ，水害リスクは低減されてきていますが，依然として大雨時の氾濫には注意が必要な状況です．<br />
+</p>
+
+<p>
+仙台市民にとって，旧笊川の水害の歴史は重要な教訓となっています．今後も防災対策を強化し，水害に強いまちづくりを進めていく必要があります．<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgf105bb9" class="outline-3">
+<h3 id="orgf105bb9"><span class="section-number-3">4.2.</span> 《ポンプについて》</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+今回「旧笊川排水機場」で使用するコラム形ポンプについての特徴を示します．<br />
+</p>
+<ul class="org-ul">
+<li>揚程が低く，吐き出し量が大きい揚水や排水に適しています．（低揚程・大水量）<br /></li>
+<li>コラムと呼ばれるパイプ内に取り付けることで運転出来ます．<br /></li>
+<li>補機が少なくメンテナンス（保守）が簡単です．<br /></li>
+<li>軸流形または斜流形の羽根車と乾式水中モータを組み合わせたものです．（今回は斜流形）<br /></li>
+<li>用途は，雨水排水，農業用や工業用水の取水などです．<br /></li>
+</ul>
+
+<p>
+さらに詳細でわかりやすい解説は現在準備中です．今しばらくお待ちください．<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgae8092c" class="outline-3">
+<h3 id="orgae8092c"><span class="section-number-3">4.3.</span> 《除塵機について》</h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+現在準備中です．今しばらくお待ちください．<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgbb485d3" class="outline-3">
+<h3 id="orgbb485d3"><span class="section-number-3">4.4.</span> 《発電機について》</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+現在準備中です．今しばらくお待ちください．<br />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org63a0243" class="outline-2">
+<h2 id="org63a0243"><span class="section-number-2">5.</span> 【所長からのひと言】</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+ご発注者，近隣住民の方々，また関連工事に携わっている皆様とともに工事の安全を第一にと考えております．色々な面でご負担をおかけする事があるかも知れませんがご協力を願いいたします．<br />
+完成の際には，水害低減の一助になればと願っています．<br />
+</p>
+
+<p>
+今月21日ころから石川県能登地方で前線や低気圧の影響により線状降水帯が発生し，気象庁が統計を取り始めて以来の記録的な大雨となりました．河川の氾濫や土砂災害に見舞われ，誠に残念な残念なっ結果となった方々には心からのお悔やみを申し上げます．被害にあわれた方々に心からのお見舞いを申し上げます．<br />
+</p>
+
+<p>
+また，関連土木工事の株式会社橋本店の Web サイトは，以下です．<br />
+<a href="https://hashimototenkoji.main.jp/kyuzarugawahaisuikijo">https://hashimototenkoji.main.jp/kyuzarugawahaisuikijo</a><br />
+</p>
+
+
+<div id="orgc87a266" class="figure">
+<p><img src="./images/head_bw.png" alt="head_bw.png" width="15%" /><br />
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2024-07-11 木 00:00</p>
+<p class="date">Created: 2024-09-25 水 15:35</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
