@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="160mm"
+   height="100mm"
+   viewBox="0 0 160 100"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="flow.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.3075636"
+     inkscape:cx="396.53902"
+     inkscape:cy="316.237"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g41" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,5,5.3638021)"
+       id="g41">
+      <rect
+         x="-18.897638"
+         y="-20.272638"
+         width="604.72443"
+         height="377.95276"
+         fill="#f6f7f8"
+         id="rect1"
+         style="stroke-width:1.00054" />
+      <path
+         d="M 0,0 170.079,1.04987e-4"
+         stroke="#9dc3e6"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(1,0,0,-1,60,219)"
+         id="path1" />
+      <rect
+         x="170.5"
+         y="144.5"
+         width="30"
+         height="94"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#f6f7f8"
+         id="rect2" />
+      <path
+         d="m 170.5,238.5 h 30 l -6,15 h -18 z"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path2" />
+      <path
+         d="m 170.5,272.5 7.271,-9.683 c 0.792,-9.138 -0.796,-6.211 -1.194,-9.317 h 17.847 c 0.005,3.106 -1.379,0.179 -0.382,8.714 L 200.5,272.5 Z"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path3" />
+      <rect
+         x="166.5"
+         y="140.5"
+         width="38"
+         height="4"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="none"
+         id="rect3" />
+      <path
+         d="M 200.914,151.5 H 234.5 v 30 h -33.586 c 0.03,-4.863 -5.272,-1.986 -7.414,-15.183 2.34,-12.281 7.444,-9.68 7.414,-14.817 z"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#f6f7f8"
+         fill-rule="evenodd"
+         id="path4" />
+      <rect
+         x="249.5"
+         y="151.5"
+         width="38"
+         height="30"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="none"
+         id="rect4" />
+      <rect
+         x="234.5"
+         y="148.5"
+         width="4"
+         height="38"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="none"
+         id="rect5" />
+      <rect
+         x="246.5"
+         y="148.5"
+         width="3"
+         height="38"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="none"
+         id="rect6" />
+      <path
+         d="m 238.5,152.5 7.562,30.236"
+         stroke="#313131"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path6" />
+      <path
+         d="M 0,0 7.56178,30.2362"
+         stroke="#313131"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(-1,0,0,1,246.062,152.5)"
+         id="path7" />
+      <path
+         d="m 447.194,122.453 3.551,1.292 -12.927,35.516 -3.55,-1.292 z"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path8" />
+      <path
+         d="m 431.701,120.786 14.202,5.17 -10.341,28.412 -14.203,-5.169 z"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path9" />
+      <path
+         d="m 472.032,175.736 -33.028,-19.734 10.555,-28.999 37.985,6.114 z"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path10" />
+      <path
+         d="m 288.039,151.414 49.097,-28.346 15.118,26.185 -49.097,28.346 z"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path11" />
+      <rect
+         x="353.5"
+         y="119.5"
+         width="68"
+         height="30"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="none"
+         id="rect11" />
+      <path
+         d="M 0,0 16.1008,3.51496"
+         stroke="#313131"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(1,0,0,-1,287.5,182.015)"
+         id="path12" />
+      <path
+         d="M 0,0 15.8,4.06152"
+         stroke="#313131"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(1,0,0,-1,337.5,123.562)"
+         id="path13" />
+      <path
+         d="m 421.5,119.5 10.356,1.852"
+         stroke="#313131"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path14" />
+      <path
+         d="M 60.5,299.5 V 279.127 H 231.369 V 193.5 H 249.5 v 106 z"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="#d9d9d9"
+         fill-rule="evenodd"
+         id="path15" />
+      <path
+         d="m 111.201,274.503 c -2.822,-0.756 -4.496,-3.656 -3.74,-6.478 l 16.826,-62.796 c 0.756,-2.822 3.657,-4.497 6.479,-3.74 l 0.733,0.196 c 2.822,0.756 4.496,3.657 3.74,6.479 l -16.826,62.796 c -0.756,2.821 -3.657,4.496 -6.479,3.74 z"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path16" />
+      <path
+         d="m 126.393,209.734 c -2.214,-2.214 -2.214,-5.804 0,-8.018 l 13.363,-13.362 c 2.214,-2.214 5.804,-2.214 8.018,0 v 0 c 2.214,2.214 2.214,5.803 0,8.017 l -13.363,13.363 c -2.214,2.214 -5.804,2.214 -8.018,0 z"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path17" />
+      <path
+         d="m 249.5,196.298 47.589,-0.501 56.889,-34.297 63.068,0.418 C 450.133,179.751 524.691,253.284 552.5,268.5"
+         stroke="#313131"
+         stroke-width="1.33333"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path18" />
+      <path
+         d="M 0,0 71.811,1.04987e-4"
+         stroke="#9dc3e6"
+         stroke-width="2"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(1,0,0,-1,495,223)"
+         id="path19" />
+      <path
+         d="M 0,0 30.2362,1.04987e-4"
+         stroke="#9dc3e6"
+         stroke-width="2"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(1,0,0,-1,68,229)"
+         id="path20" />
+      <path
+         d="M 0,0 15.1181,1.04987e-4"
+         stroke="#9dc3e6"
+         stroke-width="2"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(1,0,0,-1,76,238)"
+         id="path21" />
+      <path
+         d="M 0,0 30.2362,1.04987e-4"
+         stroke="#9dc3e6"
+         stroke-width="2"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(1,0,0,-1,529,232)"
+         id="path22" />
+      <path
+         d="M 0,0 15.1181,1.04987e-4"
+         stroke="#9dc3e6"
+         stroke-width="2"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(1,0,0,-1,537,242)"
+         id="path23" />
+      <path
+         d="M 0,231 H 49.3313 L 57,244 49.3313,257 H 0 Z"
+         fill="#2e75b6"
+         fill-rule="evenodd"
+         id="path24" />
+      <text
+         fill="#f6f7f8"
+         font-family="Meiryo, Meiryo_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="13px"
+         id="text24"
+         x="6.3955402"
+         y="249">旧笊川</text>
+      <path
+         d="m 491.789,143.636 45.941,16.721 2.808,15.1 -11.857,9.761 -45.941,-16.721 z"
+         fill="#2e75b6"
+         fill-rule="evenodd"
+         id="path25" />
+      <text
+         fill="#f6f7f8"
+         font-family="Meiryo, Meiryo_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="13px"
+         transform="rotate(19.999985)"
+         id="text25"
+         x="525.60486"
+         y="-15.714619">排水</text>
+      <rect
+         x="508"
+         y="193"
+         width="46"
+         height="22"
+         fill="#ffffff"
+         id="rect25" />
+      <text
+         fill="#313131"
+         font-family="Meiryo, Meiryo_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         id="text26"
+         x="512.17999"
+         y="209">広瀬川</text>
+      <rect
+         x="272.5"
+         y="0.50005299"
+         width="136"
+         height="19"
+         fill="#ffffff"
+         id="rect26" />
+      <path
+         d="m 406.699,19.4118 -132.28,0.3424 0.399,-0.1999 -87.179,116.1707 -0.8,-0.601 87.328,-116.3692 132.53,-0.343 z m -209.286,108.8112 -11.295,8.695 5.192,-13.275 c 0.101,-0.257 0.391,-0.384 0.648,-0.284 0.257,0.101 0.384,0.391 0.284,0.648 l -4.537,11.599 -0.771,-0.579 9.869,-7.597 c 0.219,-0.168 0.533,-0.127 0.701,0.091 0.169,0.219 0.128,0.533 -0.091,0.702 z"
+         fill="#313131"
+         id="path26" />
+      <text
+         fill="#313131"
+         font-family="Meiryo, Meiryo_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         id="text27"
+         x="281.76501"
+         y="16">コラム式ポンプ</text>
+      <text
+         fill="#313131"
+         font-family="'Times New Roman', 'Times New Roman_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="13px"
+         id="text28"
+         x="378.431"
+         y="16">5</text>
+      <text
+         fill="#313131"
+         font-family="Meiryo, Meiryo_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         id="text29"
+         x="385.09799"
+         y="16">台</text>
+      <rect
+         x="19.500099"
+         y="0.50005299"
+         width="113"
+         height="19"
+         fill="#ffffff"
+         id="rect29" />
+      <path
+         d="m 20.9292,18.0145 110.4618,-0.0603 8.499,165.0698 -0.999,0.052 -8.475,-164.5958 0.5,0.4743 -109.9862,0.06 z M 142.59,171.002 l -3.103,13.913 -4.517,-13.52 c -0.087,-0.262 0.054,-0.545 0.316,-0.633 0.262,-0.087 0.545,0.054 0.633,0.316 l 3.946,11.813 -0.962,0.049 2.711,-12.155 c 0.061,-0.27 0.328,-0.44 0.597,-0.38 0.27,0.061 0.44,0.328 0.379,0.597 z"
+         fill="#313131"
+         id="path29" />
+      <text
+         fill="#313131"
+         font-family="Meiryo, Meiryo_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         id="text30"
+         x="22.6462"
+         y="14">除じん機</text>
+      <text
+         fill="#313131"
+         font-family="'Times New Roman', 'Times New Roman_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="13px"
+         id="text31"
+         x="79.312897"
+         y="14">5</text>
+      <text
+         fill="#313131"
+         font-family="Meiryo, Meiryo_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         id="text32"
+         x="85.9795"
+         y="14">台</text>
+      <text
+         fill="#313131"
+         font-family="Meiryo, Meiryo_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(28.3129,37)"
+         id="text33">旧笊川から流れて</text>
+      <text
+         fill="#313131"
+         font-family="Meiryo, Meiryo_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(28.3129,52)"
+         id="text34">きた大きなゴミを</text>
+      <text
+         fill="#313131"
+         font-family="Meiryo, Meiryo_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(28.3129,66)"
+         id="text35">取り除きます</text>
+      <text
+         fill="#313131"
+         font-family="Meiryo, Meiryo_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(281.58,37)"
+         id="text36">旧笊川の水を広瀬川</text>
+      <text
+         fill="#313131"
+         font-family="Meiryo, Meiryo_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(281.58,52)"
+         id="text37">へ吐き出し（排水）</text>
+      <text
+         fill="#313131"
+         font-family="Meiryo, Meiryo_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="12px"
+         transform="translate(281.58,66)"
+         id="text38">ます</text>
+      <text
+         fill="#9cc2e5"
+         font-family="Meiryo, Meiryo_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="16px"
+         id="text39"
+         x="75.159103"
+         y="216">▽</text>
+      <rect
+         x="166"
+         y="312"
+         width="235"
+         height="26"
+         fill="#ffffff"
+         id="rect39" />
+      <text
+         fill="#313131"
+         font-family="Meiryo, Meiryo_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(185.432,331)"
+         id="text40">旧笊川排水機場</text>
+      <text
+         fill="#313131"
+         font-family="Meiryo, Meiryo_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(301.432,331)"
+         id="text41">概略フロー</text>
+    </g>
+  </g>
+</svg>
