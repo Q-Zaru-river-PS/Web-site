@@ -1,4 +1,31 @@
-table { border-top: solid 2pt #797979;
-	border-bottom: solid 2px #797979;
-      }
-th { border-bottom: solid 0.5pt #797979; }
+@charset "utf-8";
+body {
+  margin: 5px;
+}
+
+/* org-mode より */
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+
+/* 表（今月・今週の予定） */
+table {
+  margin: 10px;
+  border-top: solid 2pt #797979;
+  border-bottom: solid 2pt #797979;
+  border-collapse:collapse;     /* org-mode より */
+}
+
+/* org-mode より */
+caption.t-above { caption-side: top; }
+caption.t-bottom { caption-side: bottom; }
+td, th { vertical-align:top;  }
+th.org-right  { text-align: center;  }
+th.org-left   { text-align: center;   }
+th.org-center { text-align: center; }
+td.org-right  { text-align: right;  }
+td.org-left   { text-align: left;   }
+td.org-center { text-align: center; }
+dt { font-weight: bold; }
+
+th { border-bottom: solid 0.5pt #797979; }      /* org-mode の設定に追記 */
