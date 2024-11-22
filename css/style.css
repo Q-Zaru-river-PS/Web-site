@@ -8,10 +8,39 @@ body {
 }
 */
 
+/*
+https://coliss.com/articles/build-websites/operation/css/spacing-in-css-margin-and-padding-and-etc.html
+「CSSにおけるスペースの与え方、paddingやmarginなどを使った実装テクニックを
+詳しく解説 | コリス」> 「CSSのプロジェクトで使用するスペースの実装テクニック」を
+参照し，h1, h2, h3, h4 および img タグのスタイル margin を記載しました．
+*/
+h1, h2, h3, h4 {
+    margin: 2.75rem 0 1.05rem;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+img {
+    margin-bottom: 0.5rem;
+}
+
 /* org-mode より */
   .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
   .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
   .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+
+/* 要素の下に 5rem のスペースを空けます．必要であれば 0.5rem の padding */
+.after_space {
+    /* padding: .5rem; */
+    margin-bottom: 5rem;
+}
+/* 最後となる要素の下に 50px のスペースを空けます．必要であれば 0.5rem の padding */
+.end_space {
+    /* padding: .5rem; */
+    margin-bottom: 50px;
+}
 
 /* 表（今月・今週の予定） */
 table {
@@ -22,15 +51,22 @@ table {
 }
 
 /* org-mode より */
-caption.t-above { caption-side: top; }
-caption.t-bottom { caption-side: bottom; }
+caption.t-above {
+    caption-side: top;
+    padding: 1.5rem .5rem .5rem .5rem;
+}
+caption.t-bottom {
+    caption-side: bottom;
+    padding: 1.5rem .5rem .5rem .5rem;
+}
+
 td, th { vertical-align:top;  }
-th.org-right  { text-align: center;  }
-th.org-left   { text-align: center;   }
-th.org-center { text-align: center; }
-td.org-right  { text-align: right;  }
-td.org-left   { text-align: left;   }
-td.org-center { text-align: center; }
+th.org-right  { padding: .25rem 1rem; text-align: right;  }
+th.org-left   { padding: .25rem 1rem; text-align: left;   }
+th.org-center { padding: .25rem 1rem; text-align: center; }
+td.org-right  { padding: .25rem 1rem; text-align: right;  }
+td.org-left   { padding: .25rem 1rem; text-align: left;   }
+td.org-center { padding: .25rem 1rem; text-align: center; }
 dt { font-weight: bold; }
 
 th { border-bottom: solid 0.5pt #797979; }      /* org-mode の設定に追記 */
