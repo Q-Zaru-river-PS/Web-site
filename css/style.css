@@ -95,3 +95,28 @@ footer p {
     font-style: normal; /* normal 指定しなくても変化はないようです */
     text-align: center; /* 一応 BOX 内の文字も中央寄せ */
 }
+
+/*
+  https://kodocode.net/design-css-text-memo/
+  [CSSコピペ] 重要/警告/注釈/ポイントのテキスト囲み枠のデザインサンプル。｜ KodoCode
+  より
+*/
+/*囲み枠*/
+.box-text-notice {
+    position: relative;
+    border: 3px solid #da4033;
+    /* border: 3px solid #ef454a; 朱色 */
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 20px 20px 5px 20px;
+}
+.box-text-notice::before {
+    content: "実排水の試験運転！";
+    position: absolute;
+    background-color: #ffffff;
+    color: #da4033;
+    font-weight: bold;
+    left: 20px;
+    top: -23px;
+    padding: 10px;
+}
